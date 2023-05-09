@@ -3,7 +3,7 @@ package poo;
 
 
 
-public class Usuario
+public class Pessoa
 {
 	int id; 
 	String nome; 

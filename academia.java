@@ -52,14 +52,19 @@ public class academia {
 		
 		 case 1:
 			
+			
 			System.out.println("\nId: ");
-			id = teclado.nextLine();	
+			aluno.setId(teclado.nextLine());
+
 			System.out.println("\nNome: ");
 			nome = teclado.nextLine();
+
 			System.out.println("\nEndereco: ");
 			endereco = teclado.nextLine();
+
 			System.out.println("\nTelefone: ");
 			telefone = teclado.nextLine();
+			
 			System.out.println("\nIdade: ");
 			idade = teclado.nextLine();
 			System.out.println("\nSexo: ");

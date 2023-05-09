@@ -1,16 +1,9 @@
 package poo;
 
 
-public class Aluno {
+public class Aluno extends Pessoa {
 	
-		private String id;
-		private String nome;
-		private String endereco;
-		private int telefone;
-		private int idade;
-		private String sexo;
-		private String cpf;
-		private String email;
+		
 		private String objetivo;
 		/*String avaliacaoFisica;	
 		 String frequenciasAluno;
@@ -20,9 +13,9 @@ public class Aluno {
 		
 		
 		
-public Aluno() {
+		public Aluno() {
 
-}
+			}
 		
 		
 		//MATRICULA
