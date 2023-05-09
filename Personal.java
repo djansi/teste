@@ -1,15 +1,8 @@
 package poo;
 
-public class Personal {
+public class Personal extends Pessoa {
 	
-	int id; 
-	String nome; 
-	String endereco;
-	String telefone; 
-	int idade; 
-	String sexo; 
-	String cpf; 
-	String email; 
+	 
 	String especializacao; 
 	String dataAdmissao; 
 	String status;

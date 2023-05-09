@@ -31,7 +31,7 @@ public class academia {
 		
 		
 		//OBJETOS
-		Aluno novoaluno = new Aluno ();
+		Aluno aluno = new Aluno ();
 		Personal novopersonal = new Personal ();
 		
 		
@@ -57,28 +57,34 @@ public class academia {
 			aluno.setId(teclado.nextLine());
 
 			System.out.println("\nNome: ");
-			nome = teclado.nextLine();
+			aluno.setNome(teclado.nextLine());
 
 			System.out.println("\nEndereco: ");
-			endereco = teclado.nextLine();
+			aluno.setEndereco(teclado.nextLine());
 
 			System.out.println("\nTelefone: ");
-			telefone = teclado.nextLine();
+			aluno.setTelefone(teclado.nextLine());
 			
 			System.out.println("\nIdade: ");
-			idade = teclado.nextLine();
+			aluno.setIdade(teclado.nextLine());
+
 			System.out.println("\nSexo: ");
-			sexo = teclado.nextLine();
+			aluno.setSexo(teclado.nextLine());
+
 			System.out.println("\nCpf: ");
-			cpf = teclado.nextLine();
+			aluno.setCpf(teclado.nextLine());
+
 			System.out.println("\nEmail: ");
-			email = teclado.nextLine();
+			aluno.setEmail(teclado.nextLine());
+
 			System.out.println("\nObjetivo:: ");
-			objetivo = teclado.nextLine();
+			aluno.setObjetivo(teclado.nextLine());
+
 			System.out.println("\nPersonal:: ");
-			personal = teclado.nextLine();
+			aluno.setPersonal(teclado.nextLine());
+
 			System.out.println("\nData de Inicio:: ");
-			datainicio = teclado.nextLine();
+			aluno.setDataInicio(teclado.nextLine());
 		
 		
 			
